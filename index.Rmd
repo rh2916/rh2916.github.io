@@ -1,7 +1,8 @@
 ---
-title: "Holy cow!"
+title: "Rui Huang"
 ---
 
-### I have a webpage!
 
-And I can put all kinds of stuff on it!
+### This is the personal website for Rui Huang
+
+<img src="images/photo.jpg" style="width:75%">

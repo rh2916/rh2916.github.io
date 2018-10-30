@@ -5,10 +5,10 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "My email"
-      href: rh2916@columbia.edu
-    - text: "My github"
-      href: about.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Plots"
+      href: plots.html
     - icon: fa-envelope fa-lg
       href: mailto:<rh2916@columbia.edu>
     - icon: fa-github fa-lg
