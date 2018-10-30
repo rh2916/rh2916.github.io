@@ -2,7 +2,20 @@
 title: "Rui Huang"
 ---
 
+## Problem 1
 
 ### This is the personal website for Rui Huang
 
 <img src="images/photo.jpg" style="width:75%">
+
+
+Please contact me by [my email](rh2916@columbia.edu).
+
+My linkedin is [linkedin](https://www.linkedin.com/in/rui-huang-19a787160/)
+
+My github is [github](https://github.com/rh2916)
+
+
+## Problem 2 
+
+The plots page is [plots](plot.html).

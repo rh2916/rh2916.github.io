@@ -7,8 +7,8 @@ navbar:
       href: about.html
     - text: "Resume"
       href: resume.html
-    - text: "Plots"
-      href: plots.html
+    - text: "Plot"
+      href: plot.html
     - icon: fa-envelope fa-lg
       href: mailto:<rh2916@columbia.edu>
     - icon: fa-github fa-lg

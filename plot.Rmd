@@ -1,0 +1,74 @@
+---
+title: "Plots"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(janitor)
+library(skimr)
+library(dplyr)
+library(plotly)
+library(p8105.datasets)
+```
+
+```{r}
+data(ny_noaa)
+df_ny_noaa = 
+  ny_noaa %>%
+  janitor::clean_names() %>%
+  separate(date, into = c("year", "month", "day"), sep = "-") %>%
+  mutate(tmax = as.numeric(tmax),
+         tmin = as.numeric(tmin),
+         prcp = prcp/10
+         ) %>%
+  mutate(tmax=tmax/10,
+         tmin = tmin/10) 
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+Boxplot = df_ny_noaa %>%
+  filter((month == "01" | month == "07") & !is.na(tmax)) %>%
+  group_by(month, year, id) %>%
+  summarize(mean_temp = mean(tmax)) %>% 
+  ggplot(aes(x = year, y = mean_temp)) +
+  geom_boxplot() +
+  facet_grid(.~month) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(
+    title = "Average maximum temperature in January and in July in each station across years",
+    x = "Year",
+    y = "Average temperature"
+  )
+ggplotly(Boxplot)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+df_ny_noaa %>%
+  group_by(year) %>%
+  summarise(snow_sum = sum(snow, na.rm = T)) %>%
+  plot_ly(x = ~year, y = ~snow_sum, type = "scatter", mode = "makers",
+          alpha = 0.5)
+```
+
+### Chart C
+
+```{r}
+
+```
+
