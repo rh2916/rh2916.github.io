@@ -6,6 +6,7 @@ title: "Rui Huang"
 
 ### This is the personal website for Rui Huang
 
+<p align="center">
 <img src="images/photo.jpg" style="width:75%">
 
 
@@ -18,4 +19,6 @@ My github is [github](https://github.com/rh2916)
 
 ## Problem 2 
 
-The plots page is [plots](plot.html).
+The plots page is [plot](plot.html).
+
+The code and interpret page is [code](code.html).

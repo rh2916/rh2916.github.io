@@ -69,6 +69,10 @@ df_ny_noaa %>%
 ### Chart C
 
 ```{r}
-
+df_ny_noaa %>%
+  filter(year == "2008") %>%
+  group_by(month) %>%
+  summarise(prcp_sum = sum(prcp, na.rm = T)) %>%
+  plot_ly(x = ~month, y = ~prcp_sum, type = "bar",alpha = 0.5)
 ```
 
