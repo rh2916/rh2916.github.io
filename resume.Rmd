@@ -30,18 +30,33 @@ Summer Intern, Quality Control Group, Biology Department, Tasly Research Institu
 ### RESEARCH EXPERIENCE
 
 Genomics Center, Beth Israel Deaconess Medical Center, Boston                    07/2017-08/2017  
-Project: Study on genes related to the drug resistance of prostate cancer (Summer Undergraduate Researcher)
-• Used multivariable regression and principal components analysis to identify genes related to prostate cancer
-• Verified functions of the gene axl on drug resistance of prostate cancer and found its inhibitor R428 to reduce resistance
+Project: Study on genes related to the drug resistance of prostate cancer (Summer Undergraduate Researcher).
+Used multivariable regression and principal components analysis to identify genes related to prostate cancer.
+Verified functions of the gene axl on drug resistance of prostate cancer and found its inhibitor R428 to reduce resistance.
 
 Molecular Virology Laboratory, College of Life Sciences, Nankai University           02/2017-01/2018                                        
-Project: Study on Internal Ribosomes Entry Site (IRES) of c-fos 5 'untranslated region (Research Assistant) 
-• Screened 6 genes whose translation efficiency increased after EV71 infection by R packages edgeR and genefilter
-• Identified the trans-acting factors of c-fos IRES through overexpression, siRNA and RNA-protein co-immunoprecipitation
+Project: Study on Internal Ribosomes Entry Site (IRES) of c-fos 5 'untranslated region (Research Assistant). 
+Screened 6 genes whose translation efficiency increased after EV71 infection by R packages edgeR and genefilter.
+Identified the trans-acting factors of c-fos IRES through overexpression, siRNA and RNA-protein co-immunoprecipitation
 
 Bioactive Materials Laboratory, College of Life Sciences, Nankai University            09/2015-03/2017                                       
-Project: Construction of enhanced autoimmune wrapped vascular grafts funded by Students Innovation Training Program
-• Worked on bioengineering experiments to design vascular grafts, resulting in patented new invention
+Project: Construction of enhanced autoimmune wrapped vascular grafts funded by Students Innovation Training Program. 
+Worked on bioengineering experiments to design vascular grafts, resulting in patented new invention
+
+### PUBLICATIONS AND PATENTS
+Co-author publication (2017): “Small-diameter hybrid vascular grafts composed of polycaprolactone and polydioxanone fibers”, Scientific Report 7(1):3615.
+Co-author publication (received): “The up-regulation of c-Fos protein in enterovirus 71 infected rhabdomyosarcoma cells via an IRES-dependent mechanism”.
+Co-inventor patent: Method for constructing engineered arterial blood vessel by using melt spinning fiber as framework, China charted, patent number: 201710144739.3.
+
+### EXTRACURRICULAR ACTIVITIES
+Vice president of the Red Cross, Nankai University        	  05/2015-05/2016
+President of volunteers association, College of Life Sciences, Nankai University	05/2015-05/2016
+Volunteer of the Red Cross in Tianjin First Central Hospital and Tianjin Blood Center  01/2015-05/2016
+	
+### ADDITIONAL INFORMATION
+Certifications: Volunteer Certification from Nepal NGO (Govt. Regd. No.:830/2068)
+Computer Skills: SPSS, R, SAS, Microsoft Suite, Photoshop, C++, GraphPad Prism, DNAMAN, Chemdraw, Image J 
+Languages: Chinese (Native), English (Fluent)
 
 
 ### My email
