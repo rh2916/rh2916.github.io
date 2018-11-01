@@ -9,4 +9,4 @@ This is the homework 4 for P8105.
 For problem 1, my academic and professional experience is in the link 'resume'.
 My email, github and professional networks can be accessed by the icons.
 
-For problem 2, a flexdashboard including three distinct plot types by plotly is in the link 'plot'
+For problem 2, a flexdashboard including three distinct plot types by plotly is in the link 'plot'.
