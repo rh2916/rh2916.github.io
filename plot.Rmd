@@ -1,5 +1,5 @@
 ---
-title: "Plots"
+title: "Plots for NOAA"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -37,20 +37,18 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-Boxplot = df_ny_noaa %>%
-  filter((month == "01" | month == "07") & !is.na(tmax)) %>%
+df_ny_noaa %>%
+  filter((month == "01" ) & !is.na(tmax)) %>%
   group_by(month, year, id) %>%
   summarize(mean_temp = mean(tmax)) %>% 
-  ggplot(aes(x = year, y = mean_temp)) +
-  geom_boxplot() +
-  facet_grid(.~month) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-  labs(
-    title = "Average maximum temperature in January and in July in each station across years",
-    x = "Year",
-    y = "Average temperature"
-  )
-ggplotly(Boxplot)
+  plot_ly(x = ~year, y = ~mean_temp, type = "box",
+          alpha = 0.5) %>%
+  layout(
+    title = "Average maximum temperature in January in each station across years",
+    scene = list(
+      xaxis = list(title = "Year"),
+      yaxis = list(title = "Average temperature")
+    ))
 ```
 
 Column {data-width=350}
