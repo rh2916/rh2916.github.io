@@ -63,7 +63,14 @@ df_ny_noaa %>%
   group_by(year) %>%
   summarise(snow_sum = sum(snow, na.rm = T)) %>%
   plot_ly(x = ~year, y = ~snow_sum, type = "scatter", mode = "makers",
-          alpha = 0.5)
+          alpha = 0.5) %>%
+  layout(
+    title = "Total snow for years",
+    scene = list(
+      xaxis = list(title = "Year"),
+      yaxis = list(title = "Snow")
+    ))
+
 ```
 
 ### Chart C
@@ -73,6 +80,12 @@ df_ny_noaa %>%
   filter(year == "2008") %>%
   group_by(month) %>%
   summarise(prcp_sum = sum(prcp, na.rm = T)) %>%
-  plot_ly(x = ~month, y = ~prcp_sum, type = "bar",alpha = 0.5)
+  plot_ly(x = ~month, y = ~prcp_sum, type = "bar",alpha = 0.5) %>%
+  layout(
+    title = "Monthly precipitation change in 2008",
+    scene = list(
+      xaxis = list(title = "Month"),
+      yaxis = list(title = "Precipitation")
+    ))
 ```
 
