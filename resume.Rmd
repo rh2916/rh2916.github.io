@@ -6,56 +6,81 @@ E-mail: rh2916@columbia.edu   Tel: 6462405895
 
 ### EDUCATION 
 
-Columbia University, New York, USA                     09/2018-05/2020
-Master of Science in Biostatistics, Mailman School of Public Health. 
+Columbia University, New York, USA.  09/2018-05/2020
+
+Master of Science in Biostatistics, Mailman School of Public Health.
+
 Coursework: Biostatistics Methods, Probability, Data Science, Epidemiology
 
-Nankai University, Tianjin, China                      09/2014- 07/2018
+Nankai University, Tianjin, China.   09/2014- 07/2018
 B.S. in Biological Sciences, College of Life Sciences, GPA: 3.7/4.0. 
+
 Awards: Honors Scholarship for three consecutive years, Abroad Exchange Scholarship for Poling Class Students, College Outstanding Graduate Thesis; Member of Honor Program for top 20 students
 
-University of California, Los Angeles, USA             08/2016-09/2016
+University of California, Los Angeles, USA.  08/2016-09/2016
+
 Summer Session, supported by Poling Abroad Exchange Scholarship, Coursework in Contemporary Health Issue  
 
 ### INTERNSHIP EXPERIENCE
 
-IQVIA, Beijing, China                                  07/2018-08/2018  
+IQVIA, Beijing, China.                                  07/2018-08/2018 
+
 Statistical Programmer Intern, Department of Biostatistics. 
+
 Worked on large-scale SAS coding projects simultaneously, ensuring deliverables were achieved on time. 
+
 Produced and quality controlled dataset including thousands of hospital records used for FDA requirement using SAS
 
-Tasly Pharmaceutical Group co. LTD, Tianjin, China     08/2017-09/2017
-Summer Intern, Quality Control Group, Biology Department, Tasly Research Institution. Ensured quality and followed research protocols to test cytotoxicity and physico-chemical properties of drug samples
+Tasly Pharmaceutical Group co. LTD, Tianjin, China.     08/2017-09/2017
+
+Summer Intern, Quality Control Group, Biology Department,  Research Institution. 
+
+Ensured quality and followed research protocols to test cytotoxicity and physico-chemical properties of drug samples
 
 ### RESEARCH EXPERIENCE
 
-Genomics Center, Beth Israel Deaconess Medical Center, Boston                    07/2017-08/2017  
+Genomics Center, Beth Israel Deaconess Medical Center, Boston.                   07/2017-08/2017  
+
 Project: Study on genes related to the drug resistance of prostate cancer (Summer Undergraduate Researcher).
+
 Used multivariable regression and principal components analysis to identify genes related to prostate cancer.
+
 Verified functions of the gene axl on drug resistance of prostate cancer and found its inhibitor R428 to reduce resistance.
 
-Molecular Virology Laboratory, College of Life Sciences, Nankai University           02/2017-01/2018                                        
+Molecular Virology Laboratory, College of Life Sciences, Nankai University.           02/2017-01/2018            
+
 Project: Study on Internal Ribosomes Entry Site (IRES) of c-fos 5 'untranslated region (Research Assistant). 
+
 Screened 6 genes whose translation efficiency increased after EV71 infection by R packages edgeR and genefilter.
+
 Identified the trans-acting factors of c-fos IRES through overexpression, siRNA and RNA-protein co-immunoprecipitation
 
-Bioactive Materials Laboratory, College of Life Sciences, Nankai University            09/2015-03/2017                                       
-Project: Construction of enhanced autoimmune wrapped vascular grafts funded by Students Innovation Training Program. 
+Bioactive Materials Laboratory, College of Life Sciences, Nankai University.      09/2015-03/2017  
+
+Project: Construction of enhanced autoimmune wrapped vascular grafts funded by Students Innovation Training Program.
+
 Worked on bioengineering experiments to design vascular grafts, resulting in patented new invention
 
 ### PUBLICATIONS AND PATENTS
+
 Co-author publication (2017): “Small-diameter hybrid vascular grafts composed of polycaprolactone and polydioxanone fibers”, Scientific Report 7(1):3615.
+
 Co-author publication (received): “The up-regulation of c-Fos protein in enterovirus 71 infected rhabdomyosarcoma cells via an IRES-dependent mechanism”.
+
 Co-inventor patent: Method for constructing engineered arterial blood vessel by using melt spinning fiber as framework, China charted, patent number: 201710144739.3.
 
 ### EXTRACURRICULAR ACTIVITIES
-Vice president of the Red Cross, Nankai University        	  05/2015-05/2016
-President of volunteers association, College of Life Sciences, Nankai University	05/2015-05/2016
-Volunteer of the Red Cross in Tianjin First Central Hospital and Tianjin Blood Center  01/2015-05/2016
+
+Vice president of the Red Cross, Nankai University.        	  05/2015-05/2016
+
+President of volunteers association, College of Life Sciences, Nankai University.	05/2015-05/2016
+Volunteer of the Red Cross in Tianjin First Central Hospital and Tianjin Blood Center. 01/2015-05/2016
 	
 ### ADDITIONAL INFORMATION
+
 Certifications: Volunteer Certification from Nepal NGO (Govt. Regd. No.:830/2068)
 Computer Skills: SPSS, R, SAS, Microsoft Suite, Photoshop, C++, GraphPad Prism, DNAMAN, Chemdraw, Image J 
+
 Languages: Chinese (Native), English (Fluent)
 
 
