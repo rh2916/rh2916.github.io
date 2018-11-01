@@ -1,0 +1,81 @@
+---
+title: "Code"
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(janitor)
+library(skimr)
+library(dplyr)
+library(plotly)
+library(p8105.datasets)
+```
+
+```{r}
+data(ny_noaa)
+df_ny_noaa = 
+  ny_noaa %>%
+  janitor::clean_names() %>%
+  separate(date, into = c("year", "month", "day"), sep = "-") %>%
+  mutate(tmax = as.numeric(tmax),
+         tmin = as.numeric(tmin),
+         prcp = prcp/10
+         ) %>%
+  mutate(tmax=tmax/10,
+         tmin = tmin/10) 
+```
+
+The data used is NOAA dataset.
+
+
+```{r}
+df_ny_noaa %>%
+  filter((month == "01" ) & !is.na(tmax)) %>%
+  group_by(month, year, id) %>%
+  summarize(mean_temp = mean(tmax)) %>% 
+  plot_ly(x = ~year, y = ~mean_temp, type = "box",
+          alpha = 0.5) %>%
+  layout(
+    title = "Average maximum temperature in January in each station across years",
+    scene = list(
+      xaxis = list(title = "Year"),
+      yaxis = list(title = "Average temperature")
+    ))
+```
+
+The first plot shows the average maximum temperature in January. There are outliers and it show that there are some abnormally high temperature.
+
+```{r}
+df_ny_noaa %>%
+  group_by(year) %>%
+  summarise(snow_sum = sum(snow, na.rm = T)) %>%
+  plot_ly(x = ~year, y = ~snow_sum, type = "scatter", mode = "makers",
+          alpha = 0.5) %>%
+  layout(
+    title = "Total snow for years",
+    scene = list(
+      xaxis = list(title = "Year"),
+      yaxis = list(title = "Snow")
+    ))
+
+```
+
+The second plot shows the snow change over years. 
+
+```{r}
+df_ny_noaa %>%
+  filter(year == "2008") %>%
+  group_by(month) %>%
+  summarise(prcp_sum = sum(prcp, na.rm = T)) %>%
+  plot_ly(x = ~month, y = ~prcp_sum, type = "bar",alpha = 0.5) %>%
+  layout(
+    title = "Monthly precipitation change in 2008",
+    scene = list(
+      xaxis = list(title = "Month"),
+      yaxis = list(title = "Precipitation")
+    ))
+```
+
+The third plot shows the precipitation change over months in 2008.
+
