@@ -7,7 +7,7 @@ title: "Rui Huang"
 ### This is the personal website for Rui Huang
 
 <p align="center">
-<img src="images/photo.jpg" style="width:75%">
+<img src="images/photo.png" style="width:30%">
 
 
 Please contact me by [my email](rh2916@columbia.edu).
